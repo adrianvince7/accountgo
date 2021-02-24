@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using System;
 using System.Net.Http;
 
-namespace AccountGoWeb.Controllers
+namespace WorkStreamWeb.Controllers
 {
   [Microsoft.AspNetCore.Authorization.Authorize]
   public class AdministrationController : BaseController

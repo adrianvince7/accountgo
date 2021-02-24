@@ -1,4 +1,4 @@
-﻿namespace AccountGoWeb.Models.Sales
+﻿namespace WorkStreamWeb.Models.Sales
 {
     public class AddReceipt
     {

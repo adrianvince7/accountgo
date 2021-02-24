@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System.Net.Http;
 
-namespace AccountGoWeb.Controllers
+namespace WorkStreamWeb.Controllers
 {
     [Microsoft.AspNetCore.Authorization.Authorize]
     public class PurchasingController : BaseController

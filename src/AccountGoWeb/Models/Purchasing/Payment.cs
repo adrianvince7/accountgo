@@ -1,4 +1,4 @@
-﻿namespace AccountGoWeb.Models.Purchasing
+﻿namespace WorkStreamWeb.Models.Purchasing
 {
     public class Payment
     {

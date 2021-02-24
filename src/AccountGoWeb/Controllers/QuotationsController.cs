@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace AccountGoWeb.Controllers
+namespace WorkStreamWeb.Controllers
 {
     [Microsoft.AspNetCore.Authorization.Authorize]
     public class QuotationsController : BaseController

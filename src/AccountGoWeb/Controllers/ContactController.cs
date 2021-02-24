@@ -8,7 +8,7 @@ using System.Net.Http;
 using Dto.Common;
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace AccountGoWeb.Controllers
+namespace WorkStreamWeb.Controllers
 {
     public class ContactController : BaseController
     {

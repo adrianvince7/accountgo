@@ -3,7 +3,7 @@ WORKDIR /app
 
 COPY ./src/Dto Dto
 COPY ./src/Infrastructure Infrastructure
-COPY ./src/AccountGoWeb AccountGoWeb
+COPY ./src/WorkStreamWeb WorkStreamWeb
 COPY ./src/Modules Modules
 COPY ./Directory.Build.props .
 COPY ./Directory.Build.targets .
@@ -23,7 +23,7 @@ RUN curl -SL "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-lin
 ### Add all modules here. TODO: Improve in such a way all projects under Modules folder are automatically build.
 RUN dotnet build Modules/SampleModule/SampleModule.csproj -c Release
 
-WORKDIR /app/AccountGoWeb
+WORKDIR /app/WorkStreamWeb
 
 RUN npm install
 RUN npm rebuild node-sass
@@ -37,6 +37,6 @@ ENV APIHOST api
 WORKDIR /app
 EXPOSE 8000
 
-COPY --from=build-env /app/.build/bin/AccountGoWeb/Release/netcoreapp2.2/publish ./
+COPY --from=build-env /app/.build/bin/WorkStreamWeb/Release/netcoreapp2.2/publish ./
 
-ENTRYPOINT ["dotnet", "AccountGoWeb.dll"]
+ENTRYPOINT ["dotnet", "WorkStreamWeb.dll"]

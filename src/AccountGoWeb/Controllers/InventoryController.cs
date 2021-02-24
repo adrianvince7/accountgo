@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 
-namespace AccountGoWeb.Controllers
+namespace WorkStreamWeb.Controllers
 {
     [Microsoft.AspNetCore.Authorization.Authorize]
     public class InventoryController : BaseController

@@ -1,4 +1,4 @@
-﻿using AccountGoWeb.Models.Account;
+﻿using WorkStreamWeb.Models.Account;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -10,7 +10,7 @@ using System.Net.Http;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace AccountGoWeb.Controllers
+namespace WorkStreamWeb.Controllers
 {
     public class AccountController : BaseController
     {

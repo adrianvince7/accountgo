@@ -1,4 +1,4 @@
-﻿namespace AccountGoWeb.Models.Financial
+﻿namespace WorkStreamWeb.Models.Financial
 {
     public class GeneralLedgerSetting
     {

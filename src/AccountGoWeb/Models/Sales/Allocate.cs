@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace AccountGoWeb.Models.Sales
+namespace WorkStreamWeb.Models.Sales
 {
     public class Allocate
     {

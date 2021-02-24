@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AccountGoWeb.Models.Account
+namespace WorkStreamWeb.Models.Account
 {
     public class LoginViewModel
     {

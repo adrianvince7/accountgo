@@ -1,11 +1,11 @@
-﻿using AccountGoWeb.Models;
+﻿using WorkStreamWeb.Models;
 using Dto.Sales;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Net.Http;
 
-namespace AccountGoWeb.Controllers
+namespace WorkStreamWeb.Controllers
 {
     [Microsoft.AspNetCore.Authorization.Authorize]
     public class SalesController : BaseController

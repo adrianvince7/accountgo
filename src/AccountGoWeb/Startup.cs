@@ -13,7 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Infrastructure.AssemblyLoader;
 
-namespace AccountGoWeb
+namespace WorkStreamWeb
 {
     public class Startup
     {

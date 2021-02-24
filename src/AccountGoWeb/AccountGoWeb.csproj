@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PreserveCompilationContext>true</PreserveCompilationContext>
-    <AssemblyName>AccountGoWeb</AssemblyName>
-    <PackageId>AccountGoWeb</PackageId>
+    <AssemblyName>WorkStreamWeb</AssemblyName>
+    <PackageId>WorkStreamWeb</PackageId>
     <TypeScriptToolsVersion>latest</TypeScriptToolsVersion>
     <Version>0.0.1-alpha</Version>
     <Language>Latest</Language>
@@ -26,6 +26,7 @@
     <PackageReference Include="ExpressiveAnnotations" Version="2.9.6" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 
   <ItemGroup>

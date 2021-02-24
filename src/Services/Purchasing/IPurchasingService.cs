@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------
-// <copyright file="IPurchasingService.cs" company="AccountGo">
-// Copyright (c) AccountGo. All rights reserved.
+// <copyright file="IPurchasingService.cs" company="WorkStream">
+// Copyright (c) WorkStream. All rights reserved.
 // <author>Marvin Perez</author>
 // <date>1/11/2015 9:48:38 AM</date>
 // </copyright>

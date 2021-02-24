@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Net.Http;
 
-namespace AccountGoWeb.Models
+namespace WorkStreamWeb.Models
 {
     public static class SelectListItemHelper
     {

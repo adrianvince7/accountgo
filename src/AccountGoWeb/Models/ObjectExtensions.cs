@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.IO;
 
-namespace AccountGoWeb.Models
+namespace WorkStreamWeb.Models
 {
     public static class ObjectExtensions
     {

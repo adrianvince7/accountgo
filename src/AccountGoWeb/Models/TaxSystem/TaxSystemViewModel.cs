@@ -1,6 +1,6 @@
 ﻿using Dto.TaxSystem;
 
-namespace AccountGoWeb.Models.TaxSystem
+namespace WorkStreamWeb.Models.TaxSystem
 {
     public class TaxSystemViewModel
     {
